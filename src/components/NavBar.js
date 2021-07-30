@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-export default function App () {
+export default function NavBar () {
     return <>
         <div className="barranav">
         <h1 className="titulo">Emalara <br />La Tienda de Mascotas</h1>
