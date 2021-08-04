@@ -1,10 +1,12 @@
 import React from 'react';
+import CartWidget from './CartWidget';
 import './style.css'
 
-export default function NavBar () {
-    return <>
+const NavBar = () => {
+    return (
         <div className="barranav">
-        <h1 className="titulo">Emalara <br />La Tienda de Mascotas</h1>
+            <h1 className="titulo">Emalara <br />La Tienda de Mascotas</h1>
+            <CartWidget />
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Todo para Perros</a></li>
@@ -14,5 +16,7 @@ export default function NavBar () {
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>
-    </>;
+    )
 }
+
+export default NavBar;

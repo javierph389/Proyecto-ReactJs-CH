@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Cabin', sans-serif;
 }
 
 h1, h2, h3, h4, h5, p, a, li {
@@ -29,4 +30,20 @@ li {
 .titulo {
     text-align: center;
     padding-bottom: 10px;
+}
+
+.distCarro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+.btnCarro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-right: 15px;
 }
