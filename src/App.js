@@ -11,7 +11,6 @@ const App = () => {
             <h3>Ofertas Exclusivas</h3>
             <p>Lorem Ipsum</p>
         </div>
-
     </div>)
 }
 

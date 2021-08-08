@@ -1,4 +1,5 @@
 import React from 'react';
+import ItemCount from './ItemCount';
 import './style.css'
 
 class ItemListContainer extends React.Component {
@@ -8,6 +9,7 @@ class ItemListContainer extends React.Component {
     return (
             <div>
                 <h2>{saludoInicial}</h2>
+                <ItemCount />
             </div>
         );
     }
